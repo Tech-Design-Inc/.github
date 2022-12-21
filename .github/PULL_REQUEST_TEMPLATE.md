@@ -35,39 +35,5 @@ issue URL: _Needs to be replaced_
     他にも参考リンク・情報があればこちらに記入してください
   -------------------------------------------------------->
 
-### Rollback Procedure / ロールバック手順
-<!--------------------------------------------------------
-    Please specify how to rollback. 
-    By default, reverting the relevant Git commit is expected.
-    ロールバック手順を記入してください
-    必要に応じてデフォルトの手順を書き換えてください
-  -------------------------------------------------------->
-
-If any issue found, rollback should take place by reverting the relevant Git commit.
-
-### Expected Impact / 想定される影響
-<!--------------------------------------------------------
-    Please specify expected impact by this change
-    本変更によって想定されている影響を記入してください
-  -------------------------------------------------------->
-
-- _Needs to be replaced_
-
-### Background / 変更の背景
-
-- _Needs to be replaced_
-
-### Not Implemented / 本変更からスコープ外としている範囲
-
-- _Needs to be replaced_
-
-## TEST DETAILS / テスト詳細
-
-**How to test / テストの再現手順**:
-- _Needs to be replaced_
-
-**Screenshots (if any) / テストのスクリーンショット(動画があれば動画)**
-
-
 ### Other (if any) / 他に何かあれば
 
