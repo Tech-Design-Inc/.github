@@ -41,5 +41,5 @@ coming soon...
 
 # Recruiting / 採用
 
-[採用ポジション](/job_postings/)についてはこちらをご参照ください
+採用ポジションや採用の考え方については[こちら](/job_postings/)をご参照ください
 
