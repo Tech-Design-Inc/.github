@@ -28,6 +28,9 @@ Resilireでは採用を、面接する人と面接を受ける人のマッチン
 | ソフトウェアエンジニア(Backend) | Go, Python | [Job Description](./software_engineer_backend.md) |
 | ソフトウェアエンジニア(Frontend) | React.js | [Job Description](./software_engineer_frontend.md) |
 | SRE | Terraform, k8s | [Job Description](./sre.md) |
+| プロダクトデザイナー | Figma | [Job Description](./product_designer.md) |
+| プロダクトマネージャー |  | [Job Description](./product_manager.md) |
+
 
 
 
