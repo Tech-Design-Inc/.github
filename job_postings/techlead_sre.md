@@ -84,3 +84,4 @@ Resilireは事業拡大に伴って自然と世界に進出していくプロダ
 | 資本金 | 2001万円 |
 | 従業員数 | 15名(業務委託含む) |
 
+<a href="https://herp.careers/v1/resilire/b5uIrXnC2XCz/apply"><img src="https://user-images.githubusercontent.com/38177202/209110799-857d55db-ed80-44f5-ab32-0fd195545546.png" alt="JobApply" width="180" border="10" align="right" /></a>
