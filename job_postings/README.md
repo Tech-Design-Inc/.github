@@ -25,8 +25,8 @@ Resilireでは採用を、面接する人と面接を受ける人のマッチン
 | 採用ポジション | 使用言語 | links  |
 | ------------- |:-------------:| -----:|
 | ソフトウェアエンジニア | React.js, Go, Python, Terraform | [Job Description](./software_engineer.md) |
-| ソフトウェアエンジニア(Backend) - Techlead | Go, Python | [Job Description](./techlead_backend.md) |
 | ソフトウェアエンジニア(Frontend) - Techlead | React.js | [Job Description](./techlead_frontend.md) |
+| ソフトウェアエンジニア(Backend) - Techlead | Go, Python | [Job Description](./techlead_backend.md) |
 | SRE - Techlead | Terraform, k8s | [Job Description](./techlead_sre.md) |
 | プロダクトデザイナー | Figma | [Job Description](./product_designer.md) |
 | プロダクトマネージャー |  | [Job Description](./product_manager.md) |
