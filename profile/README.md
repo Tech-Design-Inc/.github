@@ -8,14 +8,16 @@
 
 Speaker Deckに会社事業概要があるのでこちらをご参照ください
 
-<a href="https://speakerdeck.com/daigo_isamatsu/resilire-company-deck" target="_blank">
- <img src="https://storage.googleapis.com/production-os-assets/assets/de41cc75-69f9-40f3-810a-72a5dc65885f" alt="Company Deck" width="480" border="10" />
+<a href="https://speakerdeck.com/daigo_isamatsu/resilire-company-deck-a02e737a-393d-4c43-b7f5-9cbf869b3f9c" target="_blank">
+ <img src="https://user-images.githubusercontent.com/38177202/210774365-eaa6132e-bc4d-4d28-be31-3b15955aec85.png" alt="Company Deck" width="480" border="10" />
 </a>
 
-## for Engineers / エンジニア採用
+## Recruiting Page for Engineers / エンジニア採用サイト
 
-coming soon...
+<a href="https://recruit.resilire.jp/for-engineers" target="_blank">
+ <img src="https://user-images.githubusercontent.com/38177202/210775907-680f4eaa-d838-4e5c-8266-51d44265c660.png" alt="Company Deck" width="480" border="10" />
 
+</a>
 
 # Dev Cultures / 開発文化 🌈
 
