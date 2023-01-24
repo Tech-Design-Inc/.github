@@ -25,14 +25,15 @@ Resilireでは採用を、面接する人と面接を受ける人のマッチン
 | 採用ポジション | 開発言語・ツール | links  |
 | ------------- |:-------------:| -----:|
 | ソフトウェアエンジニア | React.js, Go, Python, Terraform | [Job Description](./software_engineer.md) |
-| ソフトウェアエンジニア(Frontend) - Techlead | React.js | [Job Description](./techlead_frontend.md) |
-| ソフトウェアエンジニア(Backend) - Techlead | Go, Python | [Job Description](./techlead_backend.md) |
-| SRE - Techlead | Terraform, k8s | [Job Description](./techlead_sre.md) |
+| ソフトウェアエンジニア(Frontend) - Lead | React.js | [Job Description](./techlead_frontend.md) |
+| ソフトウェアエンジニア(Backend) - Lead | Go, Python | [Job Description](./techlead_backend.md) |
+| SRE - Lead | Terraform, k8s | [Job Description](./techlead_sre.md) |
 | プロダクトデザイナー | Figma | [Job Description](./product_designer.md) |
 | プロダクトマネージャー | Notion | [Job Description](./product_manager.md) |
 
 基本的に全てのエンジニアは”ソフトウェアエンジニア”として採用します。
-これは、Frontend, Backend, Infrastructure領域の流動性を確保するためのもので、スキルスタックで
+これは、Frontend, Backend, Infrastructure領域の流動性を確保して、個人またはチームとしてユーザーに提供する価値を意識するためのものです。
+ソフトウェアエンジニアとは別にそれぞれの領域においてリードするエンジニアがソフトウェアエンジニアの職責に加えて、全社的な技術レベルを高める責務を持ちます。
 
 
 
