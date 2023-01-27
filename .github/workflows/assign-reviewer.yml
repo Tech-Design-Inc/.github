@@ -1,0 +1,25 @@
+# This is to assign reviewer(s) automatically
+name: Auto-Assign Reviewer
+
+on:
+  pull_request:
+    types: [opened, ready_for_review, reopened]
+    branches:
+      - 'main'
+
+jobs:
+  auto-assign-reviewer:
+    name: Auto-Assign Reviewer
+    if: ${{ github.actor != 'dependabot[bot]' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: git fetch
+        run: |
+          git fetch origin main
+
+      - name: Assign a reviewer
+        uses: necojackarc/auto-request-review@v0.10.0
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          config: .github/templates/reviewers.yml
