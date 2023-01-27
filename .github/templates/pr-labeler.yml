@@ -1,0 +1,8 @@
+Dev/feature: ['feature/*', 'feat/*']
+Dev/enhance: ['enhance/*', 'enhancement/*']
+Dev/bug: ['fix/*', 'bugfix/*', 'bug/*']
+Dev/hotfix: ['hotfix/*']
+Dev/security: ['security/*']
+Dev/refactoring: ['refactoring/*', 'refactor/*']
+Dev/performance: ['performance/*']
+Dev/chore: ['chore/*', 'maintenance/*', 'other/*', 'others/*']

@@ -1,0 +1,19 @@
+# this is to automatically assign reviewer(s) for heads-up (This doesn't mean review blocker)
+reviewers:
+  defaults:
+    - resilire-default
+
+  groups:
+    resilire-default:
+      - teruhiky
+
+files:
+  '**':
+    - resilire-default
+
+options:
+  ignore_draft: true
+  ignored_keywords:
+    - DO NOT REVIEW
+    - WIP
+  enable_group_assignment: false

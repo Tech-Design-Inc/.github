@@ -1,0 +1,21 @@
+name: Auto-Create Pull Request
+
+on:
+  push:
+    branches:
+      - 'auto-pull/**'
+
+jobs:
+  create-pull-request:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Create Pull Request
+        uses: repo-sync/pull-request@v2
+        with:
+          destination_branch: "main"
+          pr_title: "Auto-generated pull request triggered by ${{ github.actor }}"
+          pr_template: ".github/PULL_REQUEST_TEMPLATE.md"
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          pr_assignee: ${{ github.actor }}
+#          pr_draft: true
