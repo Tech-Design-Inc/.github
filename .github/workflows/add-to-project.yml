@@ -1,0 +1,24 @@
+name: Add to Project
+
+on:
+  issues:
+    types: [opened, reopened]
+
+jobs:
+  add-to-project:
+    name: Add issue to project
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate token
+        id: generate_token
+        uses: tibdex/github-app-token@v1.8.0
+        with:
+          app_id: ${{ secrets.ADD_TO_PROJECT_APP_ID }}
+          private_key: ${{ secrets.GASTOGITHUB_PRIVATE_KEY }}
+      # https://github.com/marketplace/actions/add-to-github-projects
+      - uses: actions/add-to-project@v0.4.0
+        env:
+          GITHUB_TOKEN: ${{ steps.generate_token.outputs.token }}
+        with:
+          project-url: https://github.com/orgs/Tech-Design-Inc/projects/4
+          github-token: ${{ env.GITHUB_TOKEN }}
