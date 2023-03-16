@@ -21,8 +21,7 @@ Speaker Deckに会社事業概要があるのでこちらをご参照くださ�
 ## Recruiting Page for Engineers / エンジニア採用サイト
 
 <a href="https://recruit.resilire.jp/for-engineers" target="_blank">
- <img src="https://user-images.githubusercontent.com/38177202/210775907-680f4eaa-d838-4e5c-8266-51d44265c660.png" alt="Company Deck" width="480" border="10" />
-
+ <img src="https://user-images.githubusercontent.com/38177202/225490312-27883fc5-86a3-4b6f-b970-b7779759c3d1.png" alt="Company Deck" width="480" border="10" />
 </a>
 
 # Dev Cultures / 開発文化 🌈
