@@ -5,7 +5,7 @@ Resilireでは採用を、面接する人と面接を受ける人のマッチン
 面接する人はその人と一緒に仕事をして会社・チームを成長させていけるか、面接を受ける人はその会社の成長が自身のキャリア成長につながるのかをお互いに見ています。
 採用プロセスとはそのために必要な情報を交換してお互いの解像度を高める場であり、解像度を上げるために必要な情報であれば誠実に開示していきます。
 
-この想いから、Resilireの採用プロセスは[採用の進め方](https://speakerdeck.com/daigo_isamatsu/resilire-company-deck?slide=20)にあるようにプロセスが変化することがあります。
+この想いから、Resilireの採用プロセスは[採用の進め方](https://speakerdeck.com/resilire/resilire-company-deck-a02e737a-393d-4c43-b7f5-9cbf869b3f9c?slide=35)にあるようにプロセスが変化することがあります。
 
 ## dev stance / 開発スタンス
 
