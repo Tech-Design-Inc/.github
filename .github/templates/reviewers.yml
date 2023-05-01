@@ -6,6 +6,8 @@ reviewers:
   groups:
     resilire-default:
       - teruhiky
+      - hamapu
+      - kenokamoto-resilire
 
 files:
   '**':
