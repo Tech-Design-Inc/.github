@@ -1,4 +1,4 @@
-# Backend Techlead <a href="https://herp.careers/v1/resilire/6F6KZpS6y5pc/apply"><img src="https://user-images.githubusercontent.com/38177202/209110799-857d55db-ed80-44f5-ab32-0fd195545546.png" alt="JobApply" width="180" border="10" align="right" /></a>
+# Software Backend Engineer <a href="https://herp.careers/v1/resilire/nDt284SrsBmP/apply"><img src="https://user-images.githubusercontent.com/38177202/209110799-857d55db-ed80-44f5-ab32-0fd195545546.png" alt="JobApply" width="180" border="10" align="right" /></a>
 
 <img src="https://user-images.githubusercontent.com/38177202/209105699-541f57ec-6d8c-42e4-bc4a-55233f5635af.jpeg" alt="DevJob" width="100%" border="10" />
 
@@ -9,12 +9,11 @@
 
 「Resilire」は、製品の安定供給を実現するため、複雑なサプライチェーン構造を可視化し、国内外のリアルタイムな災害情報の把握から影響範囲特定を行うことで、持続可能なサプライチェーンを構築するプロダクトです。
 
-- 当社サービスResilireのソフトウェア開発（主にバックエンドですが、フロントエンドやインフラの開発を行うこともあります）
+- 当社サービスResilireのソフトウェア開発（主にバックエンドですが、スキルスタックを縛るものではありません）
   - ユーザーが操作するSupply Chainマネジメントシステムのバックエンド開発
   - 外部の情報ソースからリスク情報を取得してくるクローラー・スクレイパー開発
-- BackendのQCD管理
+- BackendのQCD貢献
 - グローバルに事業展開していくためのバックエンド設計、構築、メンテナンス
-- 高機能化・組織拡大しても成長していけるバックエンド基盤の作成
 - パフォーマンスに対するボトルネックの分析・改善 / またはそれに自動化するための仕組み作り
 - 障害時や問い合わせの対応
 - ユーザー利用ログやバグ検知機能の整備
@@ -49,10 +48,8 @@ Resilireは本プロダクトに限らずデータをどう貯めていけるか
 
 - Go言語を用いた開発実務経験
 - BtoBアプリケーションの開発経験
-- 事業数字をKPIとして負ってプロダクト成長にコミットした経験
-- 事業ロードマップに則ってQCDに責任を負った経験
 - ProductManager, ProductDesigner, SoftwareEngineerとの協働経験
-- ユーザー操作やプロダクトの開発で定量的な分析を行う仕組みを実装した経験
+- ユーザー操作やプロダクトの開発で定量的な分析に基づいて実装した経験
 - 事業の展開を踏まえて、Frontend/Infrastructureに渡ってシステムアーキテクチャを設計した経験
 
 ### 歓迎スキル
@@ -76,7 +73,7 @@ Resilireは本プロダクトに限らずデータをどう貯めていけるか
 
 | 項目 |  |
 ----|---- 
-| 給与 | 700~1,200万円 |
+| 給与 | 600~1,200万円 |
 | 勤務地 | オフィス：〒141-0022 東京都品川区東五反田5-22-33 TK池田山ビル 2F <br> 要請に応じて出社可能であればフルリモート可 |
 | 雇用形態 | 正社員 |
 | 勤務時間 | フレックスタイム制、コアタイム(11:00 ~ 16:00) |
@@ -92,5 +89,4 @@ Resilireは本プロダクトに限らずデータをどう貯めていけるか
 | 資本金 | 2001万円 |
 | 従業員数 | 15名(業務委託含む) |
 
-<a href="https://herp.careers/v1/resilire/6F6KZpS6y5pc/apply"><img src="https://user-images.githubusercontent.com/38177202/209110799-857d55db-ed80-44f5-ab32-0fd195545546.png" alt="JobApply" width="180" border="10" align="right" /></a>
-
+<a href="https://herp.careers/v1/resilire/nDt284SrsBmP/apply"><img src="https://user-images.githubusercontent.com/38177202/209110799-857d55db-ed80-44f5-ab32-0fd195545546.png" alt="JobApply" width="180" border="10" align="right" /></a>
