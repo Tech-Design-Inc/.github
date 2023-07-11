@@ -9,34 +9,42 @@ Resilireでは採用を、面接する人と面接を受ける人のマッチン
 
 ## dev stance / 開発スタンス
 
-<details>
-<summary>フルサイクルエンジニアリング</summary>
+### フルサイクルエンジニアリングを目指す組織体制
 
 開発チームは"ユーザーのどのペインに対してどういった価値を提供するのか"を強く意識していくことを目指します。
 
 そのため、[Netflixのフルサイクルエンジニアリング](https://netflixtechblog.com/full-cycle-developers-at-netflix-a08c31f83249)の概念に賛同し、
 開発チームの中で設計・開発・運用保守までを広くエンジニアリングすることで、最終的にユーザーに届ける価値を意識していきます。
 
-採用では、スキルスタックや開発プロセスでの静的なポジション採用にこだわらず、ユーザーに価値を届けるためにチームをより良い状態へコミットしてくれる方とのマッチングを目指しております。
-</details>
+上記は開発リード等の役割に関係なくすべてのエンジニアに意識していただきたいと考えております。
+もし開発内容に対してユーザーペインへのアプローチについて不明瞭な点があれば明瞭にした上で最適なアプローチであることを"腑に落ちた"状態で開発に臨んでいただければと思います。
 
 # Positions / 採用ポジション 🌈
+
+<details>
+<summary>採用ポジションへの考え方</summary>
+
+最終的なユーザーへの価値提供を考えるためにはユーザー理解だけでなく、インフラからソフトウェアまで全体感をもって設計・開発・運用保守を考える必要があると考えています。
+このように全体感を持ちつつかつユーザー課題を解決していくためには、フルスタックエンジニアのように広く網羅するキャリアも、逆に専門性をもって難易度の高い開発を実現するキャリアもチームに欠かせない役割です。
+
+上記の個人のキャリアを受け入れつつ全体感を持つために、開発チーム・組織では、スキルスタックや開発プロセスといった役割での静的な枠組みに縛られずにプロダクト軸での体制を目指します。
+そして採用では、多様なキャリアに応じた形での求人票を作成して採用を行います。
+
+</details>
 
 | 採用ポジション | 開発言語・ツール | links  |
 | ------------- |:-------------:| -----:|
 | ソフトウェアエンジニア | React.js, Go, Python, Terraform, k8s, BigQuery | [Job Description](./software_engineer.md) |
-| ソフトウェアエンジニア(Frontend) - Lead | React.js | [Job Description](./techlead_frontend.md) |
-| ソフトウェアエンジニア(Backend) - Lead | Go, Python | [Job Description](./techlead_backend.md) |
+| ソフトウェアエンジニア(Frontend) | React.js | [Job Description](./software_engineer_frontend.md) |
+| ソフトウェアエンジニア(Backend) | Go, Python | [Job Description](./software_engineer_backend.md) |
+| ソフトウェアエンジニア(Frontend Lead) | React.js | [Job Description](./techlead_frontend.md) |
+| ソフトウェアエンジニア(Backend Lead) | Go, Python | [Job Description](./techlead_backend.md) |
 | SRE - Lead | Terraform, k8s | [Job Description](./techlead_sre.md) |
-| Dataエンジニア - Lead | Python, BigQuery | [Job Description](./techlead_data.md) |
+| Product Data エンジニア - Lead | Python, BigQuery, Terraform | [Job Description](./techlead_data.md) |
 | プロダクトデザイナー | Figma | [Job Description](./product_designer.md) |
 | プロダクトマネージャー | Notion | [Job Description](./product_manager.md) |
 
-基本的に全てのエンジニアは”ソフトウェアエンジニア”として採用します。
-これは、Frontend, Backend, Infrastructure, Data Infrastructure領域の流動性を確保して、個人またはチームとしてユーザーに提供する価値を意識するためのものです。
-ソフトウェアエンジニアとは別にそれぞれの領域においてリードするエンジニアがソフトウェアエンジニアの職責に加えて、全社的な技術レベルを高める責務を持ちます。
-
-
-
+基盤を除くプロダクト開発に携わるポジションは”ソフトウェアエンジニア”として採用します。
+これは各技術領域の流動性を確保しつつ、個人やチームとしてユーザーに提供する価値をより意識するためのものです。
 
 

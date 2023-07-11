@@ -1,38 +1,34 @@
-# Backend Techlead <a href="https://herp.careers/v1/resilire/6F6KZpS6y5pc/apply"><img src="https://user-images.githubusercontent.com/38177202/209110799-857d55db-ed80-44f5-ab32-0fd195545546.png" alt="JobApply" width="180" border="10" align="right" /></a>
+
+# Software Frontend Engineer <a href="https://herp.careers/v1/resilire/nDt284SrsBmP/apply"><img src="https://user-images.githubusercontent.com/38177202/209110799-857d55db-ed80-44f5-ab32-0fd195545546.png" alt="JobApply" width="180" border="10" align="right" /></a>
 
 <img src="https://user-images.githubusercontent.com/38177202/209105699-541f57ec-6d8c-42e4-bc4a-55233f5635af.jpeg" alt="DevJob" width="100%" border="10" />
 
 ## 仕事概要 🧰
 
 ### 業務内容
-サプライチェーンリスク管理SaaS「Resilire」において、ビジネルロジックを形作るBackend開発業務
+サプライチェーンリスク管理SaaS「Resilire」において、ユーザーが直感的に使える画面を実装するFrontend開発業務
 
 「Resilire」は、製品の安定供給を実現するため、複雑なサプライチェーン構造を可視化し、国内外のリアルタイムな災害情報の把握から影響範囲特定を行うことで、持続可能なサプライチェーンを構築するプロダクトです。
 
-- 当社サービスResilireのソフトウェア開発（主にバックエンドですが、フロントエンドやインフラの開発を行うこともあります）
-  - ユーザーが操作するSupply Chainマネジメントシステムのバックエンド開発
-  - 外部の情報ソースからリスク情報を取得してくるクローラー・スクレイパー開発
-- BackendのQCD管理
-- グローバルに事業展開していくためのバックエンド設計、構築、メンテナンス
-- 高機能化・組織拡大しても成長していけるバックエンド基盤の作成
+- 当社サービスResilireのソフトウェア開発（主にフロントエンドですが、スキルスタックを縛るものではありません）
+- FrontendのQCD貢献
+- グローバルに事業展開していくためのフロント設計、構築、メンテナンス
 - パフォーマンスに対するボトルネックの分析・改善 / またはそれに自動化するための仕組み作り
 - 障害時や問い合わせの対応
 - ユーザー利用ログやバグ検知機能の整備
-- Backend組織の文化形成やプロダクトのユーザビリティの向上
+- Frontend組織の文化形成やプロダクトのユーザビリティの向上
 - ProductManagerやProductDesigner、他のSoftware Engineerと協働して事業成長にコミット
 
 ### 技術的チャレンジ
 
-- グローバルに事業展開していくためのバックエンド設計
+- Horizontal SaaSとして業界横断でPMFする画面情報設計と直感的なUXを実現するFront実装
+- グローバルに事業展開していくための画面設計
 - 組織のスケールに対して事業速度を鈍化させないための仕組み作り
 - データで定量的にプロダクト成長・ユーザーサクセスを実現するための仕組み作り
-- ネットワーク効果を実現するためのSupply Chain構造作り
-- 多様なリスクを扱うために他サービスとのAPI連携を簡単に実現する仕組み作り
-- 地図や災害周りの測量体系を理解して実装に落とし込む部分
 
 上記のようなチャレンジを例に、これからの事業成長・展開とともに技術チャレンジが多々あります！
 
-Resilireは本プロダクトに限らずデータをどう貯めていけるか・どう使っていけるかが重要で、そこが弊社のチャレンジであり特徴です。
+Resilireは競合が少なくまだまだPMFするユーザー体験は模索中です。Supply Chainに関わるデータは膨大で、それらをどう情報設計して画面で扱っていくかが弊社のチャレンジであり特徴です。
 
 ## 求める人物像 🌈
 
@@ -47,28 +43,25 @@ Resilireは本プロダクトに限らずデータをどう貯めていけるか
 
 ### 必須スキル
 
-- Go言語を用いた開発実務経験
+- React.js, Typescript, Reduxを用いた開発経験
 - BtoBアプリケーションの開発経験
-- 事業数字をKPIとして負ってプロダクト成長にコミットした経験
-- 事業ロードマップに則ってQCDに責任を負った経験
 - ProductManager, ProductDesigner, SoftwareEngineerとの協働経験
-- ユーザー操作やプロダクトの開発で定量的な分析を行う仕組みを実装した経験
-- 事業の展開を踏まえて、Frontend/Infrastructureに渡ってシステムアーキテクチャを設計した経験
+- ユーザーアクセスやプロダクトの開発で定量的な分析に基づいて実装した経験
 
 ### 歓迎スキル
 
 - グローバルで使われるソフトウェアを実装・運用保守した知見
 - 急成長するSaaSプロダクトでのソフトウェアを実装・運用保守した知見
-- 急成長SaaS企業でBackendもしくは、より大規模な組織をリードした経験
+- 急成長SaaS企業でFrontendもしくは、より大規模な組織をリードした経験
 - 大規模なPJをリードした経験
 - 英語を使用した実務経験
-- フロントエンドやインフラの実務経験
-- マイクロサービス実装の実務経験
+- Figma、Adobe Creative Cloudの使用経験
+- バックエンドやインフラの実務経験
+- マイクロフロントエンド実装の実務経験
 - パフォーマンスチューニングへの知見
 - 個人情報を適切に扱うためのセキュリティを意識した開発経験
 - 単体テスト等の実装の実務経験
 - 技術選定・アーキテクチャ選定、設計経験
-- 金額計算のトランザクションなどプロダクトのコア部分の開発経験
 
 ## ポジション条件・待遇 🚀
 
@@ -76,7 +69,7 @@ Resilireは本プロダクトに限らずデータをどう貯めていけるか
 
 | 項目 |  |
 ----|---- 
-| 給与 | 700~1,200万円 |
+| 給与 | 600~1,200万円 |
 | 勤務地 | オフィス：〒141-0022 東京都品川区東五反田5-22-33 TK池田山ビル 2F <br> 要請に応じて出社可能であればフルリモート可 |
 | 雇用形態 | 正社員 |
 | 勤務時間 | フレックスタイム制、コアタイム(11:00 ~ 16:00) |
@@ -92,5 +85,4 @@ Resilireは本プロダクトに限らずデータをどう貯めていけるか
 | 資本金 | 2001万円 |
 | 従業員数 | 15名(業務委託含む) |
 
-<a href="https://herp.careers/v1/resilire/6F6KZpS6y5pc/apply"><img src="https://user-images.githubusercontent.com/38177202/209110799-857d55db-ed80-44f5-ab32-0fd195545546.png" alt="JobApply" width="180" border="10" align="right" /></a>
-
+<a href="https://herp.careers/v1/resilire/nDt284SrsBmP/apply"><img src="https://user-images.githubusercontent.com/38177202/209110799-857d55db-ed80-44f5-ab32-0fd195545546.png" alt="JobApply" width="180" border="10" align="right" /></a>
