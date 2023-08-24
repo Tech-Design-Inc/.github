@@ -64,4 +64,4 @@
 ちなみに保守だけやってるわけじゃなくて、リアーキも手伝ってるよ！
 
 大変なので仲間を募集しています。話を聴いてみたいな！という方、保守ではなくリアーキ側に関われるので安心してご連絡ください。
-https://recruit.Resilire.jp/for-engineers
+https://recruit.resilire.jp/for-engineers
