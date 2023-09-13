@@ -12,7 +12,7 @@
 
 | アカウント | リンク |
 ----|---- 
-| hatena | [link](https://profile.hatena.ne.jp/resilire-engineer/) |
+| hatena | [link](https://resilire-engineer.hatenablog.com/) |
 | connpass | [link](https://resilire.connpass.com/) |
 
 </details>
