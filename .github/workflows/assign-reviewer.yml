@@ -23,3 +23,5 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           config: .github/templates/reviewers.yml
+
+      - uses: toshimaru/auto-author-assign@v2.0.0
