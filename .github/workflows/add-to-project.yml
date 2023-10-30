@@ -24,4 +24,5 @@ jobs:
         with:
           project-url: https://github.com/orgs/Tech-Design-Inc/projects/4
           github-token: ${{ steps.generate_token.outputs.token }}
+          labeled: 'Component/DevOrg'
 
