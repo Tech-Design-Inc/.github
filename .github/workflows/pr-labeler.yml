@@ -5,11 +5,33 @@ on:
     types: [opened]
 
 jobs:
-  pr-labeler:
+  # this PR Label is needed to check how much resource is allocated on what dev work
+  pr-labeler-for-dev-type:
+    permissions:
+      contents: read
+      pull-requests: write
+
     runs-on: ubuntu-latest
+    if: ${{ github.actor != 'dependabot[bot]' }}
     steps:
       - uses: TimonVS/pr-labeler-action@v4.1.1
         with:
-          configuration-path: .github/templates/pr-labeler.yml # optional, .github/pr-labeler.yml is the default value
+          configuration-path: .github/templates/pr-labeler-for-dev-type.yml # optional, .github/pr-labeler.yml is the default value
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  # this PR Label is needed to categorize what dev component(front/bff/backend/dbmigrator) is implemented
+  # infra needs to know this label in order to list up all the changes when docker image is updated
+  pr-labeler-for-dev-component:
+    permissions:
+      contents: read
+      pull-requests: write
+
+    runs-on: ubuntu-latest
+    if: ${{ github.actor != 'dependabot[bot]' }}
+    steps:
+      - uses: actions/labeler@v4
+        with:
+          configuration-path: .github/templates/pr-labeler-for-dev-component.yml # optional, .github/pr-labeler.yml is the default value
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
