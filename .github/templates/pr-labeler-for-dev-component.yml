@@ -1,2 +1,3 @@
 'Component/DevOrg':
-- **
+- job_postings/**/*
+- profile/**/*
