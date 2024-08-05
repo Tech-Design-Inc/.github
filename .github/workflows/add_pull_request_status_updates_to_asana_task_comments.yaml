@@ -1,0 +1,30 @@
+name: Add pull request status updates to Asana task comments
+
+on:
+  pull_request:
+    # ready_for_review（実装が完了してレビュー中の状態になった）と、closed/mergedされたことをAsanaタスクのコメントに残す形とした
+    # openはadd_pull_request_link_to_asana_taskの方で添付ログとしてコメントに残るので、除外した
+    types: [ready_for_review, closed]
+
+jobs:
+  create-comment-in-asana-task-job:
+    runs-on: ubuntu-latest
+    name: Create a comment in Asana Task
+    if: ${{ github.event.sender.type != 'Bot' }}
+    steps:
+      - name: Create a comment
+        if: ${{ github.event.action == 'ready_for_review' }}
+        uses: Asana/comment-on-task-github-action@v1.2
+        id: createComment1
+        with:
+          asana-secret: ${{ secrets.ASANA_GITHUB_ACTIONS_TOKEN }}
+          comment-text: '{{PR_NAME}} is reviewing: {{PR_URL}}'
+      - name: Create a comment
+        if: ${{ github.event.action != 'ready_for_review' }}
+        uses: Asana/comment-on-task-github-action@v1.2
+        id: createComment2
+        with:
+          asana-secret: ${{ secrets.ASANA_GITHUB_ACTIONS_TOKEN }}
+          comment-text: '{{PR_NAME}} is {{PR_STATE}}: {{PR_URL}}'
+      - name: Get status
+        run: echo "Status is ${{ steps.createComment1.outputs.status || steps.createComment2.outputs.status }}"
