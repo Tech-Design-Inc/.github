@@ -15,7 +15,7 @@
 Speaker Deckに会社事業概要があるのでこちらをご参照ください
 
 <a href="https://speakerdeck.com/resilire/product-and-technology" target="_blank">
- <img src="https://github.com/Tech-Design-Inc/.github/assets/38177202/8a54b32a-7857-47df-84ce-11ef9d08447b" alt="Company Deck" width="480" border="10" />
+ <img src="https://github.com/user-attachments/assets/199070c7-700f-46db-8076-d50ced4c8be7" alt="Company Deck" width="480" border="10" />
 </a>
 
 ## Recruiting Page for Engineers / エンジニア採用サイト
