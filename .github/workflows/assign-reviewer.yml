@@ -13,15 +13,15 @@ jobs:
     if: ${{ github.actor != 'dependabot[bot]' }}
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@ee0669bd1cc54295c223e0bb666b733df41de1c5 # v2.7.0
       - name: git fetch
         run: |
           git fetch origin main
 
       - name: Assign a reviewer
-        uses: necojackarc/auto-request-review@v0.10.0
+        uses: necojackarc/auto-request-review@5f91f424cabb3211c669e49e79da8363f7df395b # v0.10.0
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           config: .github/templates/reviewers.yml
 
-      - uses: toshimaru/auto-author-assign@v2.0.0
+      - uses: toshimaru/auto-author-assign@293cfe93d5edcadd7354d954519f3bb441d9d695 # v2.0.0
